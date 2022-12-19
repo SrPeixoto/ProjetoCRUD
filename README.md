@@ -73,24 +73,26 @@ Idéias para o projeto:
 
 <details>
   <summary>Usuário</summary>
-      Campos: Nome completo, data de nascimento, CPF, WhatsApp e foto
+  <ol>
+      <li>Campos: Nome completo, data de nascimento, CPF, WhatsApp e foto</li>
 
-      * Regras:
+      <li>* Regras:</li>
 
-      - Utilizar modais e enviar os dados por AJAX / API Fetch /Axios para realizar as requisições
-      - Ao criar o paciente, na listagem, deverá exibir um botão para atender, além dos botões padrão do CRUD (editar, deletar)
-      * Data de nascimento
-          - A idade do usuário não poderá ser menor que 1 ano
-          - Calcular idade do paciente baseado na data de nascimento e exibir na tabela de listagem para o usuário
+      <li>- Utilizar modais e enviar os dados por AJAX / API Fetch /Axios para realizar as requisições</li>
+      <li>- Ao criar o paciente, na listagem, deverá exibir um botão para atender, além dos botões padrão do CRUD (editar, deletar)</li>
+      <li>* Data de nascimento</li>
+      <li>    - A idade do usuário não poderá ser menor que 1 ano</li>
+      <li>    - Calcular idade do paciente baseado na data de nascimento e exibir na tabela de listagem para o usuário</li>
         
-      * CPF
-          - O campo conterá máscara: 999.999.999-99
-          - A validação do campo deverá obedecer a regra RFB
-      * WhatsApp
-          - O campo conterá máscara: (99) 99999-9999
-      * Foto
-          - Formatos aceitos: **JPG, JPEG, PNG**
-          - Tamanho máximo de imagem: 5MB
+      <li>* CPF</li>
+      <li>    - O campo conterá máscara: 999.999.999-99</li>
+      <li>    - A validação do campo deverá obedecer a regra RFB</li>
+      <li>* WhatsApp</li>
+      <li>    - O campo conterá máscara: (99) 99999-9999</li>
+      <li>* Foto</li>
+      <li>    - Formatos aceitos: **JPG, JPEG, PNG**</li>
+      <li>    - Tamanho máximo de imagem: 5MB</li>
+   </ol>
 </details>
 <details>
    <summary>Atendimento</summary>
@@ -100,7 +102,7 @@ Idéias para o projeto:
       - Utilizar AJAX / API Fetch /Axios para o envio do formulário e atualização da tabela.
       * Os sintomas são:
 
-         - [ ] 1. Febre
+          1. Febre
           2. Coriza
           3. Nariz Entupido
           4. Cansaço
