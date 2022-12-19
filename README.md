@@ -74,61 +74,55 @@ Idéias para o projeto:
 <details>
   <summary>Usuário</summary>
     <ol>
-      **Campos:** Nome completo, data de nascimento, CPF, WhatsApp e foto
+      Campos: Nome completo, data de nascimento, CPF, WhatsApp e foto
 
-      Regras:
+      * Regras:
 
       - Utilizar modais e enviar os dados por AJAX / API Fetch /Axios para realizar as requisições
       - Ao criar o paciente, na listagem, deverá exibir um botão para atender, além dos botões padrão do CRUD (editar, deletar)
-      <summary>Data de nascimento</summary>
-        <li>
+      * Data de nascimento
           - A idade do usuário não poderá ser menor que 1 ano
           - Calcular idade do paciente baseado na data de nascimento e exibir na tabela de listagem para o usuário
-        </li>
-      <summary>CPF</summary>
-        <li>
+        
+      * CPF
           - O campo conterá máscara: 999.999.999-99
           - A validação do campo deverá obedecer a regra RFB
-        </li>
-      <summary>WhatsApp</summary>
-        <li>
+      * WhatsApp
           - O campo conterá máscara: (99) 99999-9999
-        </li>
-      <summary>Foto</summary>
-        <li>
+      * Foto
           - Formatos aceitos: **JPG, JPEG, PNG**
           - Tamanho máximo de imagem: 5MB
-        </li>
     </ol>
 </details>
+<details>
    <summary>Atendimento</summary>
-    - Criar formulário de triagem (consulta) do paciente selecionado com perguntas que validam se o usuário possui suspeita de covid-19.
-    - O usuário só poderá possuir um atendimento, quando clicado novamente o atendimento anterior será substituído.
-    - Utilizar checkbox para seleção dos sintomas, o preenchimento também deverá ser dentro de um modal.
-    - Utilizar AJAX / API Fetch /Axios para o envio do formulário e atualização da tabela.
-    <summary>Os sintomas são:</summary>
-      <ol>
-        1. Febre
-        2. Coriza
-        3. Nariz Entupido
-        4. Cansaço
-        5. Tosse
-        6. Dor de cabeça
-        7. Dores no corpo
-        8. Mal estar geral
-        9. Dor de garganta
-        10. Dificuldade de respirar
-        11. Falta de paladar
-        12. Falta de olfato
-        13. Dificuldade de locomoção
-        14. Diarréia
-      </ol>
-    <summary>Regra: Apresentar os seguintes resultados</summary>
-      <ol>
-        1. Quando ≥ 60% dos itens estiverem marcados, exibir **POSSÍVEL INFECTADO**
-        2. Quando ≥ 40% e < 60% dos itens estiverem marcados, exibir **POTENCIAL INFECTADO**
-        3. Quando < 40% dos itens estiverem marcados, exibir **SINTOMAS INSUFICIENTES**
-      </ol>
+    <ol>
+      - Criar formulário de triagem (consulta) do paciente selecionado com perguntas que validam se o usuário possui suspeita de covid-19.
+      - O usuário só poderá possuir um atendimento, quando clicado novamente o atendimento anterior será substituído.
+      - Utilizar checkbox para seleção dos sintomas, o preenchimento também deverá ser dentro de um modal.
+      - Utilizar AJAX / API Fetch /Axios para o envio do formulário e atualização da tabela.
+      * Os sintomas são:
+
+          1. Febre
+          2. Coriza
+          3. Nariz Entupido
+          4. Cansaço
+          5. Tosse
+          6. Dor de cabeça
+          7. Dores no corpo
+          8. Mal estar geral
+          9. Dor de garganta
+          10. Dificuldade de respirar
+          11. Falta de paladar
+          12. Falta de olfato
+          13. Dificuldade de locomoção
+          14. Diarréia
+      
+      * Regra: Apresentar os seguintes resultados
+          1. Quando ≥ 60% dos itens estiverem marcados, exibir **POSSÍVEL INFECTADO**
+          2. Quando ≥ 40% e < 60% dos itens estiverem marcados, exibir **POTENCIAL INFECTADO**
+          3. Quando < 40% dos itens estiverem marcados, exibir **SINTOMAS INSUFICIENTES**
+   </ol>
 </details>
 
 Lembrando que se trata de um projeto inicial, tudo será estudado e testado, logo após será upado para o repositório.
