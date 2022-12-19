@@ -73,7 +73,6 @@ Idéias para o projeto:
 
 <details>
   <summary>Usuário</summary>
-    <ol>
       Campos: Nome completo, data de nascimento, CPF, WhatsApp e foto
 
       * Regras:
@@ -92,18 +91,16 @@ Idéias para o projeto:
       * Foto
           - Formatos aceitos: **JPG, JPEG, PNG**
           - Tamanho máximo de imagem: 5MB
-    </ol>
 </details>
 <details>
    <summary>Atendimento</summary>
-    <ol>
       - Criar formulário de triagem (consulta) do paciente selecionado com perguntas que validam se o usuário possui suspeita de covid-19.
       - O usuário só poderá possuir um atendimento, quando clicado novamente o atendimento anterior será substituído.
       - Utilizar checkbox para seleção dos sintomas, o preenchimento também deverá ser dentro de um modal.
       - Utilizar AJAX / API Fetch /Axios para o envio do formulário e atualização da tabela.
       * Os sintomas são:
 
-          1. Febre
+         - [ ] 1. Febre
           2. Coriza
           3. Nariz Entupido
           4. Cansaço
@@ -119,10 +116,9 @@ Idéias para o projeto:
           14. Diarréia
       
       * Regra: Apresentar os seguintes resultados
-          1. Quando ≥ 60% dos itens estiverem marcados, exibir **POSSÍVEL INFECTADO**
-          2. Quando ≥ 40% e < 60% dos itens estiverem marcados, exibir **POTENCIAL INFECTADO**
-          3. Quando < 40% dos itens estiverem marcados, exibir **SINTOMAS INSUFICIENTES**
-   </ol>
+          1. Quando ≥ 60% dos itens estiverem marcados, exibir POSSÍVEL INFECTADO
+          2. Quando ≥ 40% e < 60% dos itens estiverem marcados, exibir POTENCIAL INFECTADO
+          3. Quando < 40% dos itens estiverem marcados, exibir SINTOMAS INSUFICIENTES
 </details>
 
 Lembrando que se trata de um projeto inicial, tudo será estudado e testado, logo após será upado para o repositório.
