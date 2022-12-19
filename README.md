@@ -81,25 +81,26 @@ Idéias para o projeto:
       - Utilizar modais e enviar os dados por AJAX / API Fetch /Axios para realizar as requisições
       - Ao criar o paciente, na listagem, deverá exibir um botão para atender, além dos botões padrão do CRUD (editar, deletar)
       <summary>Data de nascimento</summary>
-        <ol>
+        <li>
           - A idade do usuário não poderá ser menor que 1 ano
           - Calcular idade do paciente baseado na data de nascimento e exibir na tabela de listagem para o usuário
-        </ol>
+        </li>
       <summary>CPF</summary>
-        <ol>
+        <li>
           - O campo conterá máscara: 999.999.999-99
           - A validação do campo deverá obedecer a regra RFB
-        </ol>
+        </li>
       <summary>WhatsApp</summary>
-        <ol>
+        <li>
           - O campo conterá máscara: (99) 99999-9999
-        </ol>
+        </li>
       <summary>Foto</summary>
-        <ol>
+        <li>
           - Formatos aceitos: **JPG, JPEG, PNG**
           - Tamanho máximo de imagem: 5MB
-        </ol>
+        </li>
     </ol>
+</details>
    <summary>Atendimento</summary>
     - Criar formulário de triagem (consulta) do paciente selecionado com perguntas que validam se o usuário possui suspeita de covid-19.
     - O usuário só poderá possuir um atendimento, quando clicado novamente o atendimento anterior será substituído.
