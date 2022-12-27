@@ -6,9 +6,14 @@
     },
     "devDependencies": {
         "axios": "^1.1.2",
+        "inputmask": "^5.0.7",
         "laravel-vite-plugin": "^0.7.0",
         "lodash": "^4.17.19",
         "postcss": "^8.1.14",
         "vite": "^3.0.0"
+    },
+    "dependencies": {
+        "@alpinejs/mask": "^3.10.5",
+        "jquery": "^3.6.3"
     }
 }

@@ -7,11 +7,13 @@ use Illuminate\Support\Facades\DB;
 
 class HomeController extends Controller
 {
-    public function index(){
+    public function index(Request $request){
         
-        //$situação_modalCons = $request->query('Produto');
+        $dados = [
+            'id'=>$request->input('id')
+        ];
 
-        return view('home');
+        return view('home', $dados);
     }
 
     

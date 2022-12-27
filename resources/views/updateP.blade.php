@@ -1,27 +1,20 @@
 <?php
-    ini_set('display_errors', 1);
-    ini_set('display_startup_errors', 1);
-    error_reporting(E_ALL);
 
-
-    // ====>> MYSQL <<====
-
-
-
-    $user=DB::table('Usuario')
-    ->insert([
-        'NomeCompleto'=>$nome,
-		'CPF'=>$CPF,
+$user=DB::table('Usuario')
+	->where('id', $id)
+	->update([
+		'NomeCompleto'=>$nome,
         'DataNascimento'=>$dNascimento,
         'WhatsApp'=>$WhatsApp,
         'Foto'=>$fotoP
-    ]);
+	]);
 
 ?>
+
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Formulário de Cadastro de Pacientes</title>  
+	<title>Formulário de Cadastro de Paciente</title>  
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 </head>
@@ -36,13 +29,15 @@
 		<div class="col-sm-6">
 			<div class="card">
 				<div class="card-body">
-					<h5 class="card-title">Cadastro de Pacientes</h5>
+					<h5 class="card-title">Atualização de Pacientes</h5>
 					<div class="alert alert-success" role="alert">
-						O paciente foi inserido com Sucesso!
+						O paciente foi atualizado com Sucesso!
 					</div>
 
-					<a class="btn btn-outline-warning" href="http://localhost:8000" role="button"><i class="fas fa-paper-plane"></i> Listagem</a>
-        			<a class="btn btn-outline-info" href="http://localhost:8000" role="button"><i class="fas fa-reply"></i> Voltar</a>
+					
+
+					<a class="btn btn-outline-primary" href="http://localhost:8000" name="bAbrir" id="aberto" role="button"><i class="fas fa-paper-plane"></i> Início</a>
+        			<a class="btn btn-outline-info" href="http://localhost:8000" name="bVoltar" id="fechado" role="button"><i class="fas fa-reply"></i> Voltar</a>
 				
 				</div>
 			</div>

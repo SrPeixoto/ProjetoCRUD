@@ -2,14 +2,15 @@
 
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
-use App\Http\Controllers\InsertController;
+use App\Http\Controllers\upController;
 use Illuminate\Support\Facades\DB;
 
-class InsertController extends Controller
+class upController extends Controller
 {
     public function index(Request $request){
-         
+
         $dados = [
+            'id'=>$request->input('id'),
             'nome'=>$request->input('NomeCompleto'),
             'CPF'=>$request->input('CPF'),
             'dNascimento'=>$request->input('DataNascimento'),
@@ -17,6 +18,8 @@ class InsertController extends Controller
             'fotoP'=>$request->input('Foto')
         ];
 
-        return view('insertPaciente', $dados);
+        return view('updateP', $dados);
     }
+    
 }
+

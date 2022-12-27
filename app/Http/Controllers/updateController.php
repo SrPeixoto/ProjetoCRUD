@@ -12,6 +12,7 @@ class updateController extends Controller
         $dados = [
             'id'=>$request->input('id'),
             'nome'=>$request->input('NomeCompleto'),
+            'CPF'=>$request->input('CPF'),
             'dNascimento'=>$request->input('DataNascimento'),
             'WhatsApp'=>$request->input('WhatsApp'),
             'fotoP'=>$request->input('Foto')
