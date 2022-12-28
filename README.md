@@ -158,22 +158,22 @@ A instalação alternativa é possível sem dependências locais que dependam do
 - [x] Pagina Home
 - [x] Pagina Cadastro
 - [ ] Pagina de Atendimento
-- [ ] Pagina Editar
+- [x] Pagina Editar
 - [ ] Suporte multilíngue
     - [x] Português
     - [ ] Inglês
     - [ ] Espanhol
     - [ ] Russo
-- [ ] MySQL
+- [x] MySQL
     - [x] Cadastrar
-    - [ ] Editar
+    - [x] Editar
     - [x] Remover
     - [x] Consultar
 - [ ] Verificação idependente
     - [ ] Usuário
     - [ ] Senha  
 - [x] Paginas Responsivas
-- [ ] Mascaras nos Inputs
+- [x] Mascaras nos Inputs
 - [ ] Triagem 
 - [ ] Resultado COVID
 
